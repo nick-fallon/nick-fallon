@@ -1,6 +1,6 @@
 import {ISection} from "@/types/nav.interface";
 
-export default function Section({id, title, description}: ISection) {
+export default function Section({title, description}: ISection) {
     return (
         <>
             <section className="m-24">

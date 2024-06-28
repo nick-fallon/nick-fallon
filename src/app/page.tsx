@@ -26,7 +26,7 @@ export default function Home() {
   return (
     <main className="m-36">
       {sections.map(section =>
-          <Section key={section.id} title={section.title} description={section.description} />
+          <Section key={section.id} id={section.id} title={section.title} description={section.description} />
       )}
     </main>
   );
