@@ -1,4 +1,5 @@
 import { INav } from "@/types/nav.interface";
+import Link from 'next/link'
 
 const navItems: INav[] = [
     {
@@ -26,7 +27,7 @@ export default function Nav() {
             <ul className="flex justify-end space-x-4">
                 {navItems.map((item, index) => (
                     <li key={index} className="">
-                        <a href="">{item.label}</a>
+                        <Link href={item.route}>{item.label}</Link>
                     </li>
                 ))}
             </ul>
