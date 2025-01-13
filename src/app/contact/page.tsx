@@ -1,9 +1,9 @@
+import Section from "@/components/section/Section";
+
 export default function Page() {
     return (
         <>
-            <div>
-                Contact!
-            </div>
+            <Section id="contact" description="Would you like to chat?" title="Contact"></Section>
         </>
     )
 }
