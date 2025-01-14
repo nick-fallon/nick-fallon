@@ -1,9 +1,9 @@
+import Section from "@/components/section/Section";
+
 export default function Page() {
     return (
         <>
-            <div>
-                Skills!
-            </div>
+            <Section id="skills" title="Skills" description="Here's what I can do!"></Section>
         </>
     )
 }
