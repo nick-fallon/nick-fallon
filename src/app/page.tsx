@@ -24,7 +24,7 @@ const sections: ISection[] = [
 
 export default function Home() {
   return (
-    <main className="m-36">
+    <main>
       {sections.map(section =>
           <Section key={section.id} id={section.id} title={section.title} description={section.description} />
       )}
